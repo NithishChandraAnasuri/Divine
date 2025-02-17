@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Kameron:wght@400..700&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Kameron:wght@400..700&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Orbitron;
+  font-weight: 500;
+}
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  background-color: red;
+}
+.menu-title {
+  width: 90%;
+  height: 60px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.menu-title div {
+  margin-right: 30px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.rectangle {
+  width: 80%;
+  height: 30px;
+  margin-left: 250px;
+  margin-top: 20px;
+  background-color: white;
+  /* display: flex; */
+}
+.sub-rectangle {
+  width: 51.5%;
+  background-color: red;
+  height: 29px;
+  margin-left: 158px;
+}
+.dot {
+  width: 10px;
+  height: 30px;
+  margin-left: 333px;
+  margin-top: -30px;
+  background-color: red;
+}
+.seasons {
+  width: 100%;
+  height: 250%;
+  margin-top: 300px;
+  transform: rotate(90deg);
+  margin-left: -333px;
+  margin-top: 180px;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.seasons p {
+  color: white;
+  font-weight: 300;
+  transform: rotate(180deg);
+  margin-top: -10px;
+  margin-right: 4px;
+  font-family: Orbitron;
+}
+.bar {
+  width: 12%;
+  height: 5px;
+  background-color: white;
+  transform: rotate(-180deg);
+  margin-left: -80px;
+  margin-top: 38px;
+  border-radius: 5px;
+}
+.image {
+  width: 70%;
+  height: 350px;
+  margin-top: 90px;
+  margin-left: 180px;
+  background-image: url(./janko-ferlic-oLctpwsuYBg-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 3px 3px red;
+}
+
+.right-side {
+  border: 2px solid rgb(245, 243, 243);
+  width: 68vw;
+  height: 50vh;
+  margin-left: 390px;
+}
+
+.navbar {
+  width: 70%;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 250px;
+  display: flex;
+  gap: 1px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.navbar p {
+  font-size: small;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.bar1 {
+  width: 3px;
+  height: 40px;
+  transform: rotate(90deg);
+  background-color: red;
+  margin-top: -24px;
+  margin-left: 350px;
+  border-radius: 5px;
+}
+.right-side #text {
+  margin-top: 90px;
+  margin-left: 70px;
+  font-family: "Tinos", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+}
+
+.right-side #text-1 {
+  margin-top: 70px;
+  margin-left: 100px;
+  font-family: "Courier New", Courier, monospace;
+}
+.main-img {
+  width: 30%;
+  height: 300px;
+  margin-left: 600px;
+  margin-top: -200px;
+  background-image: url(./WhatsApp\ Image\ 2024-07-30\ at\ 7.19.35\ PM.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flar {
+  width: 30%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  margin-top: -20px;
+}
+
+.flar p {
+  color: white;
+  font-size: larger;
+  margin-top: 20px;
+}
+.line {
+  width: 60px;
+  height: 10px;
+  background-color: white;
+}
+.ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-top: 20px;
+  background-color: white;
+  margin-left: 10px;
+}
+.ball1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-top: 10px;
+  background-color: white;
+  margin-left: 15px;
+}
+.ball2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 19px;
+}
+.arrow {
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 1.5);
+  backdrop-filter: blur(10px);
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.linee {
+  display: flex;
+  margin-left: 180px;
+}
+.lines {
+  width: 20px;
+  height: 1px;
+  border: 2px solid red;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.lines1 {
+  width: 40px;
+  height: 1px;
+  border: 2px solid red;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.lines2 {
+  width: 60px;
+  height: 1px;
+  border: 2px solid red;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+/* Smartphones (320px - 480px) */
+@media (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .sidebar {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: red;
+  }
+
+  .seasons {
+    width: 100%;
+    height: 250%;
+    /* margin-top: 300px; */
+    transform: rotate(180deg);
+    margin-left: -333px;
+    margin-top: 100;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
