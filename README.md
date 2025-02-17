@@ -20,8 +20,6 @@ The page is fully responsive and ensures a seamless browsing experience on both 
 ## Features
 - **Responsive Design**: The page is mobile-friendly, ensuring that it adjusts well on various screen sizes, from smartphones to large desktop monitors.
 - **Modern Layout**: Clean, elegant, and professional layout with a hero section, product highlights, and footer with call-to-action buttons.
-- **CTA Buttons**: Includes strategically placed Call-to-Action buttons to engage users and lead them to other pages or actions like contacting or shopping.
-- **Social Media Links**: Direct links to Divine Fashion's social media profiles.
-- **Typography and Color Scheme**: Elegant fonts and a modern color scheme tailored to the fashion industry to enhance user experience.
+
 
 
